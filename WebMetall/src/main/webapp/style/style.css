@@ -1,0 +1,114 @@
+body {
+	background-image: url(image/background.jpg);
+	overflow: auto;
+}
+
+#main {
+	position: absolute;
+	min-width: 950px;
+	left: 20%;
+	background-color: white;
+	left: 20%;
+}
+
+#main_page {
+	padding: 25px;
+}
+
+#view_metall {
+	padding: 25px;
+}
+
+#products {
+	float: left;
+	width: 174px;
+	text-align: left;
+	border-right: 0.5pt solid gray;
+}
+
+#products a {
+	text-decoration: none;
+	color: black;
+}
+
+#products a:hover {
+	color: red;
+}
+
+#products p {
+	font-size: 20px;
+}
+
+#table {
+	float: right;
+	width: 700px;
+	min-height: 1010px;
+}
+
+#table table {
+	width: 700px;
+	text-align: center;
+}
+
+#menu {
+	z-index: 1;
+	min-width: 910px;
+	float: right;
+	padding-left: 25px;
+	font-size: 25px;
+	padding-right: 10px;
+	border-bottom: 0.5pt solid gray;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+}
+#menu a:hover{
+	color: red;
+}
+
+#table tr td a{
+	text-decoration: none;
+	color: black;
+}
+
+#table tr td a:hover{
+	color: red;
+}
+
+#table tr td div{
+	position: absolute;
+	
+	border: 1pt solid black;
+	background-color: white;
+	display: none;
+	z-index: 1;
+}
+
+#table tr td div input{
+	font-size: 10px;
+}
+
+#model{
+	float: left;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+#exit{
+	float: right;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+#a{
+	width: 500px;
+	height: 50px;
+	border: 1pt solid black;
+}
+
+#a div{
+	display: none;
+	border: 1pt solid black;
+}
+
+
