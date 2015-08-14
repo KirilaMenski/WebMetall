@@ -1,0 +1,8 @@
+create database web_metall;
+
+create table metall (id bigint(100) not null auto_increment primary key,
+type varchar (255), type_eng varchar(255), title varchar(255),
+GOST varchar (255), size varchar(255), model varchar (255),
+length_mm int (100), price int(100), k varchar (255));
+
+
